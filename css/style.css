@@ -1,0 +1,167 @@
+body{
+ 
+ background: url(../IMG/page-bg.jpg) no-repeat center center fixed;
+ color: white;
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#tudo{
+    width: 40%;
+    height: inherit;
+    margin: 1% auto;
+
+    
+}
+#centroLogin1{
+    margin-top: -3%;
+}
+#ft1{
+    width: 60%;
+    height: 100%;
+    border: 1px solid wheat;
+    border-radius: 20px;
+}
+#div1{
+    text-align: center;
+    margin-top: -15%;
+    
+}
+
+#img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 95px;
+    
+    font-weight: bold;
+    font-size: 22pt;
+    text-align: center;
+}
+#login{
+    border: 1px solid gray;
+    padding: 2%;
+    padding-top: 35%;
+    background-color: rgba(1, 53, 75, .9);
+    border-radius: 2%;
+}
+#texto, #pass{
+    width: 75%;
+    height: 50px;
+    margin-left: 12%;
+    border-left: none;
+    
+    font-size: 25px;
+ 
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#pass{
+    position: relative;
+    top: -32px;
+}
+input{
+   
+    margin-left: 7%;
+
+}
+#enviar{
+    width: 81.6%;
+    height: 50px;
+    /*margin-left: 7.6%; */
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+    background-color: #8fe0f1;
+    border-radius: 5px;
+    margin-top: 5%;
+    cursor: pointer;
+    
+}
+
+#enviar1{
+    width: 41.6%;
+    height: 50px;
+    /*margin-left: 7.6%; */
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: #8fe0f1;
+    border-radius: 5px;
+    margin-left: 2%;
+    cursor: pointer;
+    
+    
+}
+.foto{
+    
+    width: 5%;
+    height: 50px;
+   position: relative;
+    left: 7.3%; 
+    top: 40px; 
+    background-color: white; 
+    border: 1px  white;
+  /*  background-image: url(../IMG/friends.png); */
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+    
+}
+#chave{
+    top: 20px;
+    
+}
+.image{
+    width: 90%;
+    height: inherit;
+}
+#texto{
+    margin-top: -13px;
+}
+#pessoa{
+    height: 51px;
+}
+
+@media (max-width: 500px){
+    .centro{
+        width: 500;
+        height: 100%;
+        margin: 0 auto;
+    }
+    #tudo{
+        width: 100%;
+        height: inherit;
+        max-height: 900px;
+        margin: 0 auto;
+    }
+    #login{
+      
+        height: 500px;
+        max-height: 100%;
+        position: absolute;
+        top: 10%;
+        
+    }
+    #img{
+        position: relative; 
+        top: 0;
+        z-index: 999;
+    }
+    hr{
+        position: relative;
+        margin-top: 170%;
+    }
+
+    
+
+}
+
+
+

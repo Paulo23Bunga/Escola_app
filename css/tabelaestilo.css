@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/**ESTILO TABELA**/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#tabela {
+  /*  border: 1px solid #606060; */
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 400px;
+   /* width: 100%; */
+  
+}
+
+#tabela td {
+    border: 1px solid #606060; 
+    padding: 10px;
+    text-align: center;
+    border-left: 1px solid #606060;
+    
+
+   
+}
+
+.displina {
+
+    border-right: 2px solid #606060;
+    color: #ffffff;
+    background-color: #01354c;
+    font-weight: bold;
+    opacity: 0.9;
+    
+
+}
+.trimestre {
+    border-left: 5px solid #222222; 
+    background-color: #01354c;
+    font-weight: bold;
+    opacity: 0.9;
+  /*  width: 265px; */
+    color: #fff;
+    
+}
+
+.nota {
+    
+    font-weight: bold;
+    
+    
+}
+td {
+    
+    background-color: #fafafa;
+}
+caption#pauta {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #01354c;
+    margin: 25px;
+    opacity: 0.9;
+    top: -3%;
+   
+    
+}
+
+/**TABELA PAUTA**/
+
+.tab {
+    border-right: 2px solid #606060;
+}
+pre{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#centro{
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto 0 auto;    
+}
+
+.denucia{
+    width: 50%;
+    height: 700px;
+    margin: auto;
+    background-color: #01354c; 
+    opacity: .9;
+}
+
+ #btDenuncia{
+     width: 100%;  
+}
+
+.denucia ul li{
+    display: inline;
+}
+.denucia ul li button{
+    width: 100%;
+    height: 50px;
+    cursor:pointer;
+    margin-top: 1%;
+}
+
+
+/**TABELA PROPINA**/
+.tabela1{
+    position: fixed;
+    left: 5.9%;
+    top: 0;
+   
+}
+#scrol{
+width: 100%;
+height: 300px;
+overflow-y: scroll; 
+margin-top: 25.7%;
+}
+.tabela2{
+    width: 100%;
+}
+.displina{
+    width: 87px;
+}
+#trimestre0{
+    width: 192px;
+}
+#trimestre1{
+    width: 211px;
+}
+#trimestre2{
+    width: 280px;
+}
+.pagor{
+    width: 76px;
+}
+.quinze{
+    width: 48px;
+}
+.kz{
+    width: 24px;
+}
+.nula{
+    width: 110px;
+}
+.cinco{
+    width: 30px;
+}
+.kwanza{
+    width: 22px;
+}
+.pago{
+    width: 70px;
+}
+.resto{
+    width: 83px;
+}
+
+/**RESPONSIVE**/
+@media (max-width: 500px) {
+ .tabela2{
+    
+     position: absolute;
+     margin-top: 40%;
+ }
+ .tabela1{
+     position: absolute;
+   
+     margin: 0;
+ }
+
+}
+@media (max-width: 900px) and (min-width: 500px) { 
+    .tabela1{
+        position: absolute;
+      
+        margin: 0;
+    }
+    #scrol{
+        width: 100%;
+        height: 300px;
+        overflow-y: scroll; 
+        margin-top: 34%;
+        }
+}
